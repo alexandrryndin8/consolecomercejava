@@ -64,12 +64,12 @@ public class Main {
                         String name = sc.nextLine();
 
                         System.out.print("price: ");
-                        double price = sc.nextDouble(); // читаем double как есть
-                        sc.nextLine();                  // очистка перевода строки
+                        double price = sc.nextDouble(); 
+                        sc.nextLine();                 
 
                         System.out.print("stock: ");
-                        int stock = sc.nextInt();       // читаем int как есть
-                        sc.nextLine();                  // очистка перевода строки
+                        int stock = sc.nextInt();     
+                        sc.nextLine();                  
 
                         Product p = null;
                         if (type.equalsIgnoreCase("book")) {
